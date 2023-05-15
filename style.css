@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("chimene-gaspar-VQnKZ6S0p3k-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+/* Main conatiner style */
+.main-container{
+    margin: 5% auto;
+    padding: 10px;
+    width: fit-content;
+    border: 3px solid black;
+
+}
+
+.title{
+    text-align: center;
+}
+
+/* End of Main Conatiner sytle */
+
+/* Enter Task Section style */
+
+.Input-Task{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.Input-Task input{
+    width: 73%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    outline: none;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+.Input-Task button{
+    width: 25%;
+    border-radius: 5px;
+    padding: 6px 5px;
+    outline: none;
+    background-color:coral;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.Input-Task button:hover{
+    background-color: orangered;
+    color: black;
+}
+/* end of Enter Task Section */
+
+
+
+/* Tasks Container style */
+
+.tasks-container{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.task{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.task h2{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.task-text{
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color:cadetblue;
+    color:bisque;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor: move;
+}
+
+.isdrag{
+    
+}
+/* end of Task Container style */
